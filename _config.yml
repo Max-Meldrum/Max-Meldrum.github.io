@@ -4,7 +4,8 @@ markdown: kramdown
 gems:
   - jekyll-sitemap
 
-name: Zach Holman
+name: Max Meldrum
 url: https://zachholman.com/left
-description: A fantastic blog that is fantastic.
-twitter: holman
+description: Home to Max Meldrum
+twitter:  meldruum
+github: https://github.com/Max-Meldrum
