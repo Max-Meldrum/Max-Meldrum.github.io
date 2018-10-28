@@ -5,7 +5,10 @@ gems:
   - jekyll-sitemap
 
 name: Max Meldrum
-url: https://zachholman.com/left
+#url: https://zachholman.com/left
+url: https://maxmeldrum.com
+baseurl: ""
+profile: profile.jpeg
 description: Home to Max Meldrum
 twitter:  meldruum
 github: https://github.com/Max-Meldrum
