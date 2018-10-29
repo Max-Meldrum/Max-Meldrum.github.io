@@ -10,7 +10,7 @@ tags: General
 ---
 
 The purpose of this post is to show how one can use InfluxDB and Grafana to monitor systems. 
-Down below is how the final output looks like. One graph showing the total requests of the system and the other the CPU of imaginary hosts.
+Down below is how the final output looks like. One graph showing the total requests of the system and the other, CPU of imaginary hosts.
 
 ![](../assets/img/posts/influxdb-grafana/datavisualyappl.PNG)
 
@@ -65,7 +65,7 @@ The data inside the container at path /var/lib/influxdb will be mounted to $PWD 
 This allows us to have persistent storage in case the container dies etc..
 
 
-Now before moving on to Grafana, lets create a database in InfluxDB.
+Now before moving on to Grafana, let's create a database in InfluxDB.
 
     curl -i -XPOST http://localhost:8086/query --data-urlencode "q=CREATE DATABASE mydb"
 
@@ -123,7 +123,7 @@ Open up 4 terminals and start each respective script.
 ### Configuring Grafana to show the graphs
 
 Head over to the Grafana interface again. It is time to create a dashboard. On the left side you should be able to see a little green box, 
-if you hover over it and click that you should be able to see an option called Add Panel. Click on it and choose Graph. Click on the Panel Title and you should be able to see a Edit option. 
+if you hover over it and click that you should be able to see an option called Add Panel. Click on it and choose Graph. Click on the Panel Title and you should be able to see an Edit option. 
 
 
 ![](../assets/img/posts/influxdb-grafana/grafanaCreateGraph.png)
