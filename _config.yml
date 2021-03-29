@@ -1,5 +1,9 @@
 permalink: /posts/:title
 markdown: kramdown
+highlighter: rogue
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 gems:
   - jekyll-sitemap
