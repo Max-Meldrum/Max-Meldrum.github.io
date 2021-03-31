@@ -2,7 +2,7 @@ permalink: /posts/:title
 markdown: kramdown
 highlighter: rogue
 kramdown:
-  input: GFM
+  #input: GFM
   syntax_highlighter: rouge
 
 gems:
