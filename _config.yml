@@ -1,17 +1,6 @@
-permalink: /posts/:title
-markdown: kramdown
-highlighter: rogue
-kramdown:
-  #input: GFM
-  syntax_highlighter: rouge
-
-gems:
-  - jekyll-sitemap
-
-name: Max Meldrum
-url: "http://Max-Meldrum.github.io"
-baseurl: ""
-profile: profile.jpeg
-description: Home to Max Meldrum
-twitter:  meldruum
-github: https://github.com/Max-Meldrum
+title: Max Meldrum
+logo: /assets/img/logo.png
+description: Stockholm, Sweden.
+show_downloads: false
+google_analytics:
+theme: jekyll-theme-minimal
