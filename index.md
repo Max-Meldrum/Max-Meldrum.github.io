@@ -21,6 +21,12 @@ Email - max@meldrum.se
 * X: Indexing for Stream and OLAP analytics (under development)
 * Arcon: A state-first Rust streaming analytics runtime ([repo](https://github.com/cda-group/arcon) - on hold)
 
+## Talks
+
+*   FOSDEM 22 - [Uncovering Arcon: A state-first Rust streaming analytics runtime](https://archive.fosdem.org/2022/schedule/event/arcon_rust_streaming/) 
+*   Flink Forward 2019 (With Klas Segeljakt) - [Introducing Arc: An IR for unified batch and streaming](https://www.youtube.com/watch?v=RN9WQfz8ljA)
+
+
 ## Posts
 
 * [Arcon: Betting on Arrow](docs/posts/2021-03-27-arrow.html) (March. 2021)
