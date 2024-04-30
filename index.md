@@ -18,7 +18,7 @@ Email - max@meldrum.se
 
 ## Projects
 
-* X: Indexing for Stream and OLAP analytics (under development)
+* µWheel: Embeddable Aggregate Management System for Streams and Queries ([repo](https://github.com/uwheel/uwheel) and [demo](https://uwheel.rs)).
 * Arcon: A state-first Rust streaming analytics runtime ([repo](https://github.com/cda-group/arcon) - on hold)
 
 ## Talks
