@@ -29,6 +29,7 @@ Email - max@meldrum.se
 
 ## Posts
 
+* [Speeding up Temporal Aggregation in DataFusion by 60-60000x using µWheel](docs/posts/2024-05-14-uwheel-datafusion.html) (May. 2024)
 * [Arcon: Betting on Arrow](docs/posts/2021-03-27-arrow.html) (March. 2021)
 * [Arcon: An Update](docs/posts/2020-11-01-arcon.html) (November. 2020)
 * [Rust: Powered by Ownership](docs/posts/2018-06-01-rust-ownership.html) (June. 2018)
