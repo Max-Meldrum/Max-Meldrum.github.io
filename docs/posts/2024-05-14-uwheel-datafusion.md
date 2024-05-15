@@ -47,7 +47,7 @@ So now the question is, can we acheive low latency and highly interactive queryi
 # DataFusion Baseline
 
 We generate 20000 random time ranges with both **minute** and **hour** granularities between ``2022-01-01`` and  ``2022-01-31``, and record the latency of executions.
-Furthermore, we enable the mimalloc allocator and run things using single core tokio runtime since adding more tokio workers did not really improve the DataFusion performance
+Furthermore, we enable the mimalloc allocator and run things using a single-threaded tokio runtime since adding more tokio workers did not really improve the DataFusion performance
 for our workload.
 
 Benchmark code used is available [here](https://github.com/uwheel/uwheel-datafusion) and the runs were executed on a MacBook Pro M2 machine.
@@ -225,7 +225,7 @@ CombinedAggregation {
 We now execute the same time ranges in µWheel. It is important to note that there is some additional noise in DataFusion since it parses a SQL query whereas queries in µWheel do not require any form of parsing. However it should 
 have limited impact on the the overall execution time. Finally, explicit SIMD support was disabled for µWheel.
 
-| System     | p50 | p95 | p99 |
+| System     | p50 | p99 | p99.9 |
 | ---------- | --- | --- | --- |
 | DataFusion (Minute Ranges) | 65559µs | 68887µs | 73375µs |
 | DataFusion (Hour Ranges) | 64793µs | 67667µs | 72071µs |
@@ -240,7 +240,7 @@ across minutes, hours, and day wheels. Introducing compression at the minutes di
 
 # Summary
 
-µWheel is a lightweight and embeddable aggregate management system for streams and queries. It is highly space-efficient and executes temporal aggregation queries at low latencies
+µWheel is an embeddable aggregate management system for streams and queries. It is highly space-efficient and executes temporal aggregation queries at low latencies
 through a wheel-based optimizer that finds optimal plans based on context such as SIMD, algebraic properties, and time.
 
 In this post we show the potential of embedding µWheel as an index to DataFusion to significantly speed up temporal aggregation queries on top of Parquet data.
