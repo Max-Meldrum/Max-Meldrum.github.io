@@ -12,9 +12,15 @@ I am a PhD student at KTH Royal Institute of Technology.
 * I'm also a TA in Advanced Distributed Systems and Introduction to Databases at KTH.
 
 ---
+
 **Contact**
 
 Email - max@meldrum.se  
+
+## News
+
+* µWheel wins **Best Paper Award** at DEBS24. Paper available [here](assets/files/uwheel_debs24.pdf)
+* I'll be on the job market in the near future and will be looking for remote-friendly opportunities that involve building high-performance systems.
 
 ## Projects
 
@@ -25,7 +31,6 @@ Email - max@meldrum.se
 
 *   FOSDEM 22 - [Uncovering Arcon: A state-first Rust streaming analytics runtime](https://archive.fosdem.org/2022/schedule/event/arcon_rust_streaming/) 
 *   Flink Forward 2019 (With Klas Segeljakt) - [Introducing Arc: An IR for unified batch and streaming](https://www.youtube.com/watch?v=RN9WQfz8ljA)
-
 
 ## Posts
 
