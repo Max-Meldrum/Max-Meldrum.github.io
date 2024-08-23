@@ -4,7 +4,6 @@ layout: default
 
 **About me**
 
-
 I am a PhD student at KTH Royal Institute of Technology.
 
 * My interests lie within the intersection of data management, stream processing, and distributed systems.
@@ -19,8 +18,8 @@ Email - max@meldrum.se
 
 ## News
 
+* I am joining [polygon.io](https://polygon.io) as a Software Engineer.
 * µWheel wins **Best Paper Award** at DEBS24. Paper available [here](assets/files/uwheel_debs24.pdf)
-* I'll be on the job market in the near future and will be looking for remote-friendly opportunities that involve building high-performance systems.
 
 ## Projects
 
@@ -34,6 +33,8 @@ Email - max@meldrum.se
 
 ## Posts
 
+- [Introducing datafusion-uwheel, A Native DataFusion Optimizer for Time-based Analytics](https://uwheel.rs/post/datafusion_uwheel/) - August 2024
+- [Best Paper Award + 0.2.0 Release](https://uwheel.rs/post/best-paper-award-020-release/) - July 2024
 * [Speeding up Temporal Aggregation in DataFusion by 60-60000x using µWheel](docs/posts/2024-05-14-uwheel-datafusion.html) (May. 2024)
 * [Arcon: Betting on Arrow](docs/posts/2021-03-27-arrow.html) (March. 2021)
 * [Arcon: An Update](docs/posts/2020-11-01-arcon.html) (November. 2020)
