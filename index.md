@@ -4,11 +4,10 @@ layout: default
 
 **About me**
 
-I am a PhD student at KTH Royal Institute of Technology.
-
 * My interests lie within the intersection of data management, stream processing, and distributed systems.
 * I'm passionate about building data-intensive systems.
-* I'm also a TA in Advanced Distributed Systems and Introduction to Databases at KTH.
+
+I am currently working on making [µWheel](https://uwheel.rs) the go-to index for temporal aggregation.
 
 ---
 
