@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="dcterms.date" content="2025-03-23" />
+  <title>Max Meldrum</title>
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="index.css" />
+<link href="./assets/favicon/favicon-light.svg" rel="icon" media="(prefers-color-scheme: light)">
+<link href="./assets/favicon/favicon-dark.svg" rel="icon" media="(prefers-color-scheme: dark)">
+</head>
+<body>
+<table class="header">
+  <tr>
+    <td>
+      <h1 class="title">Max Meldrum</h1>
+      <span class="subtitle">Stockholm, Sweden.</span>
+    </td>
+      </tr>
+</table>
+<div style="text-align: center;"><label class="mode-toggle-label">dark/light mode <input type="checkbox" class="mode-toggle" /></label></div><h2
+id="about-me">About me</h2>
+<p>Building real-time data systems for financial markets <a
+href="https://polygon.io/"><span class="citation"
+data-cites="Polygon.io">@Polygon.io</span></a>. Previously PhD student
+at KTH Royal Institute of Technology in the Data Systems Lab.</p>
+<ul class="incremental">
+<li>I dabble within the intersection of data management, stream
+processing, and distributed systems.</li>
+<li>I enjoy building high-performance data systems.</li>
+<li>Somewhat obsessive with making things compile faster</li>
+</ul>
+<h2 id="publications-talks-and-projects">Publications, Talks and
+Projects</h2>
+<table>
+<thead>
+<tr>
+<th class="width-min">
+Year
+</th>
+<th class="width-auto">
+Title
+</th>
+<th class="width-min">
+Link
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+2024<br>
+</td>
+<td>
+Introducing datafusion-uwheel, A Native DataFusion Optimizer for
+Time-based Analytics
+</td>
+<td>
+<a href="https://uwheel.rs/post/datafusion_uwheel/">post</a>, <a
+href="https://github.com/uwheel/datafusion-uwheel">repo</a>
+</td>
+</tr>
+<tr>
+<td>
+2024<br>
+</td>
+<td>
+μWheel: Aggregate Management for Streams and Queries <br> Best Paper
+Award ACM DEBS 🏆<br> Max Meldrum, Paris Carbone
+</td>
+<td>
+<a href="https://dl.acm.org/doi/10.1145/3629104.3666031">paper</a>, <a
+href="https://uwheel.rs">project</a>
+</td>
+</tr>
+<tr>
+<td>
+2022<br>
+</td>
+<td>
+FOSDEM: Uncovering Arcon: A state-first Rust streaming analytics runtime
+</td>
+<td>
+<a
+href="https://archive.fosdem.org/2022/schedule/event/arcon_rust_streaming/">talk</a>
+</td>
+</tr>
+<tr>
+<td>
+2019<br>
+</td>
+<td>
+Arcon: Continuous and Deep Data Stream Analytics<br> M Meldrum, K
+Segeljakt, L Kroll, P Carbone, C Schulte, S Haridi
+</td>
+<td>
+<a href="https://dl.acm.org/doi/10.1145/3350489.3350492">paper</a>
+</td>
+</tr>
+<tr>
+<td>
+2019<br>
+</td>
+<td>
+Introducing Arc: An IR for unified batch and streaming<br> Max Meldrum,
+Klas SegelJakt
+</td>
+<td>
+<a href="https://www.youtube.com/watch?v=RN9WQfz8ljA">talk</a>
+</td>
+</tr>
+<tr>
+<td>
+2018<br>
+</td>
+<td>
+Rust: Powered by Ownership
+</td>
+<td>
+<a href="https://maxmeldrum.com/assets/files/rust_report.pdf">report</a>
+</td>
+</tr>
+</tbody>
+</table>
+<h2 id="contact-me">Contact me</h2>
+<ul class="incremental">
+<li><a href="mailto:max@meldrum.se"
+class="email">max@meldrum.se</a></li>
+<li><a href="https://x.com/meldruum">𝕏</a></li>
+<li><a href="https://github.com/Max-Meldrum">GitHub</a></li>
+<li><a
+href="https://www.linkedin.com/in/max-meldrum-1a46a291/">LinkedIn</a></li>
+</ul>
+<h2 id="acknowledgements">Acknowledgements</h2>
+<p>Website based on Oskar Wickström’s monospace web <a
+href="https://github.com/owickstrom/the-monospace-web">project</a></p>
+  <div class="debug-grid"></div>
+  <script src="index.js"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var toggle = document.querySelector('.mode-toggle');
+        var favicon = document.querySelector('#favicon');
+        // Set the favicon based on the initial state of the toggle
+        if (toggle.checked) {
+            favicon.src = "./assets/favicon/favicon-dark.svg";
+        } else {
+            favicon.src = "./assets/favicon/favicon-light.svg";
+        }
+        // Change the favicon when the state of the toggle changes
+        toggle.addEventListener('change', function() {
+            if (this.checked) {
+                favicon.src = "./assets/favicon/favicon-dark.svg";
+            } else {
+                favicon.src = "./assets/favicon/favicon-light.svg";
+            }
+        });
+    });
+</script>
+
+
+</body>
+</html>

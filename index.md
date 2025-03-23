@@ -1,41 +1,78 @@
 ---
-layout: default
+title: Max Meldrum
+subtitle: Stockholm, Sweden.
+date: 2025-03-23
+lang: en
+version: v0.1.0
 ---
 
-**About me**
+[//]: <> (https://www.asciiart.eu/image-to-ascii, use gradient 2)
 
-* My interests lie within the intersection of data management, stream processing, and distributed systems.
-* I'm passionate about building data-intensive systems.
+## About me
 
-I am currently working on making [µWheel](https://uwheel.rs) the go-to index for temporal aggregation.
+Building real-time data systems for financial markets [@Polygon.io](https://polygon.io/). Previously PhD student at KTH Royal Institute of Technology in the Data Systems Lab.
 
----
+- I dabble within the intersection of data management, stream processing, and distributed systems.
+- I enjoy building high-performance data systems.
+- Somewhat obsessive with making things compile faster
 
-**Contact**
+## Publications, Talks and Projects
 
-Email - max@meldrum.se  
+<table>
+<thead>
+  <tr>
+    <th class="width-min">Year</th>
+    <th class="width-auto">Title</th>
+    <th class="width-min">Link</th>
+  </tr>
+</thead>
+<tbody>
+<tr>
+    <td>2024<br></td>
+    <td>Introducing datafusion-uwheel, A Native DataFusion Optimizer for Time-based Analytics</td>
+    <td>[post](https://uwheel.rs/post/datafusion_uwheel/), [repo](https://github.com/uwheel/datafusion-uwheel)</td>
+  </tr>
+  <tr>
+    <td>2024<br></td>
+    <td>μWheel: Aggregate Management for Streams and Queries <br> Best Paper Award ACM DEBS 🏆<br>
+    Max Meldrum, Paris Carbone</td>
+    <td>[paper](https://dl.acm.org/doi/10.1145/3629104.3666031), [project](https://uwheel.rs)</td>
+  </tr>
+  <tr>
+      <td>2022<br></td>
+      <td>FOSDEM:  Uncovering Arcon: A state-first Rust streaming analytics runtime </td>
+      <td>[talk](https://archive.fosdem.org/2022/schedule/event/arcon_rust_streaming/)</td>
+  </tr>
+  <tr>
+      <td>2019<br></td>
+      <td>Arcon: Continuous and Deep Data Stream Analytics<br>
+      M Meldrum, K Segeljakt, L Kroll, P Carbone, C Schulte, S Haridi</td>
+      <td>[paper](https://dl.acm.org/doi/10.1145/3350489.3350492)</td>
+  </tr>
 
-## News
+  <tr>
+      <td>2019<br></td>
+      <td>Introducing Arc: An IR for unified batch and streaming<br>
+      Max Meldrum, Klas SegelJakt</td>
+      <td>[talk](https://www.youtube.com/watch?v=RN9WQfz8ljA)</td>
+  </tr>
 
-* I am joining [polygon.io](https://polygon.io) as a Software Engineer.
-* µWheel wins **Best Paper Award** at DEBS24. Paper available [here](assets/files/uwheel_debs24.pdf)
+  <tr>
+      <td>2018<br></td>
+      <td>Rust: Powered by Ownership</td>
+      <td>[report](https://maxmeldrum.com/assets/files/rust_report.pdf)</td>
+  </tr>
 
-## Projects
+  </tbody>
+</table>
 
-* µWheel: Embeddable Aggregate Management System for Streams and Queries ([repo](https://github.com/uwheel/uwheel) and [demo](https://uwheel.rs)).
-* Arcon: A state-first Rust streaming analytics runtime ([repo](https://github.com/cda-group/arcon) - on hold)
+## Contact me
 
-## Talks
+- <max@meldrum.se>
+- [𝕏](https://x.com/meldruum)
+- [GitHub](https://github.com/Max-Meldrum)
+- [LinkedIn](https://www.linkedin.com/in/max-meldrum-1a46a291/)
 
-*   FOSDEM 22 - [Uncovering Arcon: A state-first Rust streaming analytics runtime](https://archive.fosdem.org/2022/schedule/event/arcon_rust_streaming/) 
-*   Flink Forward 2019 (With Klas Segeljakt) - [Introducing Arc: An IR for unified batch and streaming](https://www.youtube.com/watch?v=RN9WQfz8ljA)
+## Acknowledgements
 
-## Posts
-
-- [Introducing datafusion-uwheel, A Native DataFusion Optimizer for Time-based Analytics](https://uwheel.rs/post/datafusion_uwheel/) - August 2024
-- [Best Paper Award + 0.2.0 Release](https://uwheel.rs/post/best-paper-award-020-release/) - July 2024
-* [Speeding up Temporal Aggregation in DataFusion by 60-60000x using µWheel](docs/posts/2024-05-14-uwheel-datafusion.html) (May. 2024)
-* [Arcon: Betting on Arrow](docs/posts/2021-03-27-arrow.html) (March. 2021)
-* [Arcon: An Update](docs/posts/2020-11-01-arcon.html) (November. 2020)
-* [Rust: Powered by Ownership](docs/posts/2018-06-01-rust-ownership.html) (June. 2018)
-* [Hello World: Special Edition](docs/posts/2018-01-13-hello-world-special-edition.html) (Jan. 2018)
+Website based on Oskar Wickström's monospace web [project](https://github.com/owickstrom/the-monospace-web)
