@@ -12,7 +12,7 @@ version: v0.1.0
 
 Building real-time data systems for financial markets [@Polygon.io](https://polygon.io/). Previously PhD student at KTH Royal Institute of Technology in the Data Systems Lab.
 
-- I dabble within the intersection of data management, stream processing, and distributed systems.
+- I dabble within the intersection of database systems, stream processing, and distributed systems.
 - I enjoy building high-performance data systems.
 - Somewhat obsessive with making things compile faster
 
@@ -52,8 +52,8 @@ Building real-time data systems for financial markets [@Polygon.io](https://poly
 
   <tr>
       <td>2019<br></td>
-      <td>Introducing Arc: An IR for unified batch and streaming<br>
-      Max Meldrum, Klas SegelJakt</td>
+      <td>Flink Forward: Introducing Arc: An IR for unified batch and streaming<br>
+      Joint talk with Klas SegelJakt</td>
       <td>[talk](https://www.youtube.com/watch?v=RN9WQfz8ljA)</td>
   </tr>
 
